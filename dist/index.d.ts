@@ -1,3 +1,4 @@
 import { MongoClient } from "mongodb";
 /**
- * ANCHOR: AIQuer
+ * ANCHOR: AIQuery
+ * AIQuery is a class that simplifies the process of intera
