@@ -7,4 +7,5 @@ import { MongoClient } from "mongodb";
  * roles, schemas, and database type, allowing for flexible and dynamic database interactions.
  *
  * The class requires an API key for OpenAI, a connected MongoClient instance, a set of JSON schemas, a list of allowed roles,
- * a database type, and any additional logic to be provi
+ * a database type, and any additional logic to be provided upon instantiation. The main functionality
+ * is provided thro
