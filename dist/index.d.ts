@@ -6,4 +6,5 @@ import { MongoClient } from "mongodb";
  * the OpenAI GPT-4 model to generate executable TypeScript code based on the given query,
  * roles, schemas, and database type, allowing for flexible and dynamic database interactions.
  *
- * The class requires an API key for OpenAI, a connected MongoClient instance, a set of JSON schemas, 
+ * The class requires an API key for OpenAI, a connected MongoClient instance, a set of JSON schemas, a list of allowed roles,
+ * a database type, and any additional logic to be provi
