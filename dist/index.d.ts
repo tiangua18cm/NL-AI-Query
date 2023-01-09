@@ -9,4 +9,6 @@ import { MongoClient } from "mongodb";
  * The class requires an API key for OpenAI, a connected MongoClient instance, a set of JSON schemas, a list of allowed roles,
  * a database type, and any additional logic to be provided upon instantiation. The main functionality
  * is provided through the `processQuery` method, which takes a natural language query
- * as input and returns the result of the
+ * as input and returns the result of the database operation.
+ *
+ * The process involves creating
