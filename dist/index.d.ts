@@ -11,4 +11,5 @@ import { MongoClient } from "mongodb";
  * is provided through the `processQuery` method, which takes a natural language query
  * as input and returns the result of the database operation.
  *
- * The process involves creating
+ * The process involves creating a detailed and specific prompt for GPT-4 based on the
+ * input qu
