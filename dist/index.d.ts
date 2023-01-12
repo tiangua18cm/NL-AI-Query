@@ -13,4 +13,4 @@ import { MongoClient } from "mongodb";
  *
  * The process involves creating a detailed and specific prompt for GPT-4 based on the
  * input query, schemas, roles, database type, and additional logic. The AI model then generates
- * a TypeScript code sn
+ * a TypeScript code snippet that performs the desired database operatio
