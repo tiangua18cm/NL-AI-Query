@@ -15,4 +15,6 @@ import { MongoClient } from "mongodb";
  * input query, schemas, roles, database type, and additional logic. The AI model then generates
  * a TypeScript code snippet that performs the desired database operation using the provided
  * schemas and connection. The generated code is validated and executed using either eval or vm2,
- * and 
+ * and the result is returned to the user.
+ *
+ * AIQuery provide
