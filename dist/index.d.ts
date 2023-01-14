@@ -17,4 +17,4 @@ import { MongoClient } from "mongodb";
  * schemas and connection. The generated code is validated and executed using either eval or vm2,
  * and the result is returned to the user.
  *
- * AIQuery provide
+ * AIQuery provides a powerful and flexible solution for performing complex data
