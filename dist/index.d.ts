@@ -20,4 +20,5 @@ import { MongoClient } from "mongodb";
  * AIQuery provides a powerful and flexible solution for performing complex database
  * operations using natural language queries while ensuring that role-based access
  * controls are respected.
- * @param apiKey - 
+ * @param apiKey - The API key for OpenAI
+ * @param client - A connected Mo
