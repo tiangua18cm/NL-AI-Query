@@ -22,4 +22,6 @@ import { MongoClient } from "mongodb";
  * controls are respected.
  * @param apiKey - The API key for OpenAI
  * @param client - A connected MongoClient instance
- * @param schemas - A JSON object contain
+ * @param schemas - A JSON object containing the schemas for the database
+ * @param roles - A list of allowed roles
+ 
