@@ -24,4 +24,5 @@ import { MongoClient } from "mongodb";
  * @param client - A connected MongoClient instance
  * @param schemas - A JSON object containing the schemas for the database
  * @param roles - A list of allowed roles
- * @param apiModel - The API model for OpenAI (defaul
+ * @param apiModel - The API model for OpenAI (default: "text-davinci-003")
+ * @param dbName - The name o
