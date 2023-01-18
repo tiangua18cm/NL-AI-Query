@@ -25,4 +25,5 @@ import { MongoClient } from "mongodb";
  * @param schemas - A JSON object containing the schemas for the database
  * @param roles - A list of allowed roles
  * @param apiModel - The API model for OpenAI (default: "text-davinci-003")
- * @param dbName - The name o
+ * @param dbName - The name of the database (default: "default")
+ * @param additionalLogic - Any a
