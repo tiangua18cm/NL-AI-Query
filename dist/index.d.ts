@@ -26,4 +26,4 @@ import { MongoClient } from "mongodb";
  * @param roles - A list of allowed roles
  * @param apiModel - The API model for OpenAI (default: "text-davinci-003")
  * @param dbName - The name of the database (default: "default")
- * @param additionalLogic - Any a
+ * @param additionalLogic - Any additional logic to be provided to the AI 
