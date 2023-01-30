@@ -30,4 +30,7 @@ import { MongoClient } from "mongodb";
  * @example const query = new AIQuery(apiKey, client, schemas, ["admin", "user"], "mongodb", "default", "None");
  */
 declare class AIQuery {
-   
+    private openai;
+    private client;
+    private schemas;
+    pr
