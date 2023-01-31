@@ -33,4 +33,6 @@ declare class AIQuery {
     private openai;
     private client;
     private schemas;
-    pr
+    private roles;
+    private apiModel;
+    private dbNam
