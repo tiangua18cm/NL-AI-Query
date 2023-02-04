@@ -35,4 +35,6 @@ declare class AIQuery {
     private schemas;
     private roles;
     private apiModel;
-    private dbNam
+    private dbName;
+    private additionalLogic;
+    constructor(apiKey:
