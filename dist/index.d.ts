@@ -37,4 +37,5 @@ declare class AIQuery {
     private apiModel;
     private dbName;
     private additionalLogic;
-    constructor(apiKey:
+    constructor(apiKey: string, client: MongoClient, schemas: {
+        [key: string]: an
