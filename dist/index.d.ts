@@ -40,4 +40,6 @@ declare class AIQuery {
     constructor(apiKey: string, client: MongoClient, schemas: {
         [key: string]: any;
     }, roles: string[], apiModel?: string, dbName?: string, additionalLogic?: string);
-    processQuery(query: stri
+    processQuery(query: string, role: string): Promise<any>;
+    private isValidTypescript;
+  
