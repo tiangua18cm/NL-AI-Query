@@ -42,4 +42,6 @@ declare class AIQuery {
     }, roles: string[], apiModel?: string, dbName?: string, additionalLogic?: string);
     processQuery(query: string, role: string): Promise<any>;
     private isValidTypescript;
-  
+    private executeCodeSnippet;
+}
+export default AIQuery;
