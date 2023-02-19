@@ -119,3 +119,28 @@ Please provide the TypeScript code snippet for the given query and role, and ens
         return __awaiter(this, void 0, void 0, function* () {
             console.log("Executing code snippet:", codeSnippet);
             // Create a new NodeVM instance with the desired options
+            const vm = new vm2_1.NodeVM({
+                // wrapper: "none",
+                console: "inherit",
+                sandbox: { mongoose: mongoose_1.default, client: this.client, schemas: this.schemas, role },
+                require: {
+                    external: true,
+                    builtin: ["fs", "path"],
+                    root: "./",
+                },
+            });
+            // Execute the code snippet using the NodeVM instance and wait for the result
+            try {
+                const createdFunction = yield vm.run(`(async () => { ${codeSnippet} })()`);
+                const result = yield createdFunction();
+                return result;
+            }
+            catch (error) {
+                console.error("Error executing code snippet:", error);
+                throw error;
+            }
+        });
+    }
+}
+exports.default = AIQuery;
+//# sourceMappingURL=index.js.map
