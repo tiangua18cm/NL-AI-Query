@@ -1,0 +1,23 @@
+
+{
+  "name": "aiquery",
+  "version": "1.0.0",
+  "description": "A TypeScript library that simplifies the process of interacting with a MongoDB database using natural language queries and OpenAI.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joangeldelarosa/aiquery.git"
+  },
+  "keywords": [
+    "aiquery",
+    "typescript",
+    "mongodb",
+    "openai",
+    "gpt",
+    "gpt-3",
