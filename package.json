@@ -21,3 +21,22 @@
     "openai",
     "gpt",
     "gpt-3",
+    "natural-language",
+    "natural-language-query"
+  ],
+  "author": "Joangel <joangeldlr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joangeldelarosa/aiquery/issues"
+  },
+  "homepage": "https://github.com/joangeldelarosa/aiquery#readme",
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "openai": "^3.2.1",
+    "vm2": "^3.9.14"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
