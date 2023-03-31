@@ -108,3 +108,55 @@ Please provide the TypeScript code snippet for the given query and role, and ens
     const codeSnippet = gptResponse.data.choices[0].text.trim();
 
     // NOTE: Check if the returned code is valid TypeScript
+    if (!this.isValidTypescript(codeSnippet)) {
+      throw new Error("Invalid TypeScript code received from GPT-4.");
+    }
+
+    // ANCHOR: Execute the code snippet and return the result
+    const result = await this.executeCodeSnippet(codeSnippet, role);
+    return result;
+  }
+
+  // NOTE: This function validates if the given codeSnippet is a valid TypeScript code.
+  private isValidTypescript(codeSnippet: string): boolean {
+    // Add your validation logic here
+    // This can include checking for any malicious code or commands that shouldn't be executed
+    // For simplicity, we assume the returned code is valid TypeScript
+    return true;
+  }
+
+  // NOTE: This function executes the given codeSnippet and returns the result.
+  private async executeCodeSnippet(
+    codeSnippet: string,
+    role: string
+  ): Promise<any> {
+    console.log("Executing code snippet:", codeSnippet);
+
+    // Create a new NodeVM instance with the desired options
+    const vm = new NodeVM({
+      // wrapper: "none",
+      console: "inherit",
+      sandbox: { mongoose, client: this.client, schemas: this.schemas, role },
+      require: {
+        external: true,
+        builtin: ["fs", "path"],
+        root: "./",
+      },
+    });
+
+    // Execute the code snippet using the NodeVM instance and wait for the result
+    try {
+      const createdFunction = await vm.run(
+        `(async () => { ${codeSnippet} })()`
+      );
+      const result = await createdFunction();
+
+      return result;
+    } catch (error) {
+      console.error("Error executing code snippet:", error);
+      throw error;
+    }
+  }
+}
+
+export default AIQuery;
