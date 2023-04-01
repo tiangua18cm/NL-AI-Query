@@ -1,0 +1,32 @@
+
+Arguments: 
+  /Users/macbook/.nvm/versions/node/v16.15.0/bin/node /Users/macbook/.node/corepack/yarn/1.22.15/bin/yarn.js add --dev typescript @types/node @types/mongodb @types/openai
+
+PATH: 
+  /Users/macbook/.deno/bin:/Users/macbook/.bun/bin:/Users/macbook/.nvm/versions/node/v16.15.0/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/macbook/.deno/bin:/Users/macbook/.bun/bin:/Users/macbook/.nvm/versions/node/v16.15.0/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fopenai: Not found
+      at Request.params.callback [as _callback] (/Users/macbook/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/macbook/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/macbook/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/Users/macbook/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "aiquery",
