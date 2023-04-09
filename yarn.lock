@@ -4,4 +4,4 @@
 
 "@types/node@*":
   version "18.15.11"
-  resolved "https:
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffc
