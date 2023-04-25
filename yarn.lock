@@ -13,4 +13,5 @@
   integrity sha512-xTE1E+YF4aWPJJeUzaZI5DRntlkY3+BCVJi0axFptnjGmAoWxkyREIh/XMrfxVLejwQxMCfDXdICo0VLxThrog==
 
 "@types/whatwg-url@^8.2.1":
-  version "8
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/
