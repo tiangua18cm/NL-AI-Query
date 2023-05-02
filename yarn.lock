@@ -19,3 +19,7 @@
   dependencies:
     "@types/node" "*"
     "@types/webidl-conversions" "*"
+
+acorn-walk@^8.2.0:
+  version "8.2.0"
+  resolved "https://regis
