@@ -27,4 +27,4 @@ acorn-walk@^8.2.0:
 
 acorn@^8.7.0:
   version "8.8.2"
-  resolved "https://reg
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af96
