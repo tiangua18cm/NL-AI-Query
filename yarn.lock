@@ -36,4 +36,5 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^0.26.0:
-  vers
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-
