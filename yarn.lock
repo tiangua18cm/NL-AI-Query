@@ -49,4 +49,4 @@ bson@^5.0.1:
 
 combined-stream@^1.0.8:
   version "1.0.8"
-  resolved "https://regist
+  resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b3
