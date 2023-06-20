@@ -54,4 +54,6 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
-debug@4.
+debug@4.x:
+  version "4.3.4"
+  resolved "https://registry.ya
