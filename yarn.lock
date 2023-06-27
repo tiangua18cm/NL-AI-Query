@@ -62,4 +62,5 @@ debug@4.x:
     ms "2.1.2"
 
 delayed-stream@~1.0.0:
-  vers
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/delayed-stre
