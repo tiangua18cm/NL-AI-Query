@@ -68,4 +68,4 @@ delayed-stream@~1.0.0:
 
 follow-redirects@^1.14.8:
   version "1.15.2"
-  r
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/
