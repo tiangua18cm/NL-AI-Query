@@ -86,4 +86,5 @@ ip@^2.0.0:
   integrity sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==
 
 kareem@2.5.1:
-  versi
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/kareem/-/kareem
