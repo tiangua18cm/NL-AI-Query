@@ -108,4 +108,5 @@ mime-types@^2.1.12:
     mime-db "1.52.0"
 
 mongodb-connection-string-url@^2.6.0:
-  version "2.
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/mongodb-connection-string
