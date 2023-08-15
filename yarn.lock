@@ -122,4 +122,8 @@ mongodb@5.1.0, mongodb@^5.1.0:
   dependencies:
     bson "^5.0.1"
     mongodb-connection-string-url "^2.6.0"
-   
+    socks "^2.7.1"
+  optionalDependencies:
+    saslprep "^1.0.3"
+
+m
