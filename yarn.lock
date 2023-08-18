@@ -126,4 +126,6 @@ mongodb@5.1.0, mongodb@^5.1.0:
   optionalDependencies:
     saslprep "^1.0.3"
 
-m
+mongoose@^7.0.3:
+  version "7.0.3"
+  resolved "https:/
