@@ -128,4 +128,4 @@ mongodb@5.1.0, mongodb@^5.1.0:
 
 mongoose@^7.0.3:
   version "7.0.3"
-  resolved "https:/
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-7.0.3.tgz#5763
