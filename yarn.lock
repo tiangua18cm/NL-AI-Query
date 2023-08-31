@@ -148,4 +148,9 @@ mquery@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/mquery/-/mquery-5.0.0.tgz#a95be5dfc610b23862df34a47d3e5d60e110695d"
   integrity sha512-iQMncpmEK8R8ncT8HJGsGc9Dsp8xcgYMVSbs5jgnm1lFHTZqMJTUWTDx1LBO8+mK3tPNZWFLBghQEIOULSTHZg==
-  
+  dependencies:
+    debug "4.x"
+
+ms@2.1.2:
+  version "2.1.2"
+  res
