@@ -153,4 +153,4 @@ mquery@5.0.0:
 
 ms@2.1.2:
   version "2.1.2"
-  res
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz
