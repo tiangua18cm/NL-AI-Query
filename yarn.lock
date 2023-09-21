@@ -163,4 +163,4 @@ ms@2.1.3:
 
 openai@^3.2.1:
   version "3.2.1"
-  resolved
+  resolved "https://registry.yarnpkg.com/openai/-/openai-3.2.1.tgz#
