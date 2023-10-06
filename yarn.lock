@@ -176,4 +176,4 @@ punycode@^2.1.1:
 
 saslprep@^1.0.3:
   version "1.0.3"
-  resolved "https://regist
+  resolved "https://registry.yarnpkg.com/saslprep/-/saslprep-1.0.3.tgz#4c02f946b56cf54297
