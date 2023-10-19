@@ -192,4 +192,5 @@ smart-buffer@^4.2.0:
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
 socks@^2.7.1:
- 
+  version "2.7.1"
+  resolved "https://registry.y
