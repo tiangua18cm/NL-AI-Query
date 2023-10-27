@@ -207,4 +207,5 @@ sparse-bitfield@^3.0.3:
     memory-pager "^1.0.2"
 
 tr46@^3.0.0:
-  versio
+  version "3.0.0"
+  resolved "https://registry.yarnpk
