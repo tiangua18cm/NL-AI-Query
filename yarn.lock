@@ -215,4 +215,4 @@ tr46@^3.0.0:
 
 typescript@^5.0.3:
   version "5.0.3"
-  re
+  resolved "https://registry.yarnpkg.com/typescript/-/typ
