@@ -226,4 +226,6 @@ vm2@^3.9.14:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
 
-webidl-con
+webidl-conversions@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry
