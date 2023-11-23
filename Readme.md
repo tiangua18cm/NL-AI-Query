@@ -5,4 +5,5 @@ NL-AI-Query is a powerful TypeScript library that simplifies the process of inte
 ## Features
 
 - Perform complex database operations using natural language queries
-- Role-based access control for secure and controlle
+- Role-based access control for secure and controlled database interactions
+- Utilizes OpenAI GPT-3 model by def
