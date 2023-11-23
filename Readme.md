@@ -4,4 +4,5 @@ NL-AI-Query is a powerful TypeScript library that simplifies the process of inte
 
 ## Features
 
-- Perform com
+- Perform complex database operations using natural language queries
+-
