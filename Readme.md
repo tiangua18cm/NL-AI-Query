@@ -10,4 +10,8 @@ NL-AI-Query is a powerful TypeScript library that simplifies the process of inte
 - Supports MongoDB with Mongoose
 - Easily extensible for different databases and AI models in the future
 
-## Insta
+## Installation
+
+```bash
+npm install NL-AI-Query
+`
