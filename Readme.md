@@ -14,4 +14,9 @@ NL-AI-Query is a powerful TypeScript library that simplifies the process of inte
 
 ```bash
 npm install NL-AI-Query
-`
+```
+
+## Usage
+
+```typescript
+import { MongoClient
