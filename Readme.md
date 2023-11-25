@@ -8,4 +8,6 @@ NL-AI-Query is a powerful TypeScript library that simplifies the process of inte
 - Role-based access control for secure and controlled database interactions
 - Utilizes OpenAI GPT-3 model by default for code generation
 - Supports MongoDB with Mongoose
-- Easily extensib
+- Easily extensible for different databases and AI models in the future
+
+## Insta
