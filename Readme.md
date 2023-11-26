@@ -22,4 +22,5 @@ npm install NL-AI-Query
 import { MongoClient } from 'mongodb'
 import AIQuery from 'NL-AI-Query'
 
-// 
+// Connect to your MongoDB instance
+const client = new MongoClient('mo
