@@ -19,4 +19,7 @@ npm install NL-AI-Query
 ## Usage
 
 ```typescript
-import { MongoClient
+import { MongoClient } from 'mongodb'
+import AIQuery from 'NL-AI-Query'
+
+// 
