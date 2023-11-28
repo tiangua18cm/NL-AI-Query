@@ -23,4 +23,7 @@ import { MongoClient } from 'mongodb'
 import AIQuery from 'NL-AI-Query'
 
 // Connect to your MongoDB instance
-const client = new MongoClient('mo
+const client = new MongoClient('mongodb://localhost:27017/default')
+await client.connect()
+
+/
