@@ -26,4 +26,6 @@ import AIQuery from 'NL-AI-Query'
 const client = new MongoClient('mongodb://localhost:27017/default')
 await client.connect()
 
-/
+// Define your schemas and roles
+const schemas = {
+  users:
