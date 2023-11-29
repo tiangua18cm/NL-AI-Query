@@ -28,4 +28,10 @@ await client.connect()
 
 // Define your schemas and roles
 const schemas = {
-  users:
+  users: {
+    name: String,
+    age: Number
+  }
+}
+
+const roles = ['a
