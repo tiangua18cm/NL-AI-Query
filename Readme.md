@@ -37,4 +37,5 @@ const schemas = {
 const roles = ['admin', 'user']
 
 /* Instantiate AIQuery
- * @param apiK
+ * @param apiKey - The API key for OpenAI
+ * @param client - A connec
