@@ -34,4 +34,7 @@ const schemas = {
   }
 }
 
-const roles = ['a
+const roles = ['admin', 'user']
+
+/* Instantiate AIQuery
+ * @param apiK
