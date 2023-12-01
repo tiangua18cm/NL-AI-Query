@@ -38,4 +38,5 @@ const roles = ['admin', 'user']
 
 /* Instantiate AIQuery
  * @param apiKey - The API key for OpenAI
- * @param client - A connec
+ * @param client - A connected MongoClient instance
+ * @param schemas - A JSON 
