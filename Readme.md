@@ -40,4 +40,5 @@ const roles = ['admin', 'user']
  * @param apiKey - The API key for OpenAI
  * @param client - A connected MongoClient instance
  * @param schemas - A JSON object containing the schemas for the database
- * @param role
+ * @param roles - A list of allowed roles
+ * @param apiModel - The API model for 
