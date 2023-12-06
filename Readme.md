@@ -42,4 +42,5 @@ const roles = ['admin', 'user']
  * @param schemas - A JSON object containing the schemas for the database
  * @param roles - A list of allowed roles
  * @param apiModel - The API model for OpenAI (default: "text-davinci-003")
- * @param dbName - The 
+ * @param dbName - The name of the database (default: "default")
+ * @param additi
