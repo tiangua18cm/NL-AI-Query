@@ -46,4 +46,6 @@ const roles = ['admin', 'user']
  * @param additionalLogic - Any additional logic to be provided to the AI model (default: "None")
  * @example const query = new AIQuery(apiKey, client, schemas, ["admin", "user"], "default", "text-davinci-003", "None");
  */
-const apiKey = '
+const apiKey = 'your_openai_api_key'
+const query = new AIQuery(
+  apiKey,
