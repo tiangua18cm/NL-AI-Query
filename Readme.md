@@ -49,3 +49,9 @@ const roles = ['admin', 'user']
 const apiKey = 'your_openai_api_key'
 const query = new AIQuery(
   apiKey,
+  client,
+  schemas,
+  roles,
+)
+
+// Process a natural 
