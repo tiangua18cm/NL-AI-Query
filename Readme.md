@@ -56,3 +56,7 @@ const query = new AIQuery(
 
 // Process a natural language query
 const result = await query.processQuery(
+  'Find all users with age greater than 20',
+  'admin'
+)
+console.log
