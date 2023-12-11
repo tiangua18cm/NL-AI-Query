@@ -54,4 +54,5 @@ const query = new AIQuery(
   roles,
 )
 
-// Process a natural 
+// Process a natural language query
+const result = await query.processQuery(
