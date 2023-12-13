@@ -67,3 +67,7 @@ console.log(result)
 - Support for different databases and AI models
 - Improved validation and security for generated code
 - Enhanced error handling and debugging
+
+## Contributing
+
+Contributions are welcome! Please
