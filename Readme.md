@@ -65,4 +65,5 @@ console.log(result)
 ## Future Updates
 
 - Support for different databases and AI models
-- Improved validation and security fo
+- Improved validation and security for generated code
+- Enhanced error handling and debugging
