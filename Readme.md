@@ -70,4 +70,4 @@ console.log(result)
 
 ## Contributing
 
-Contributions are welcome! Please
+Contributions are welcome! Please feel free to submit a pull request or open
